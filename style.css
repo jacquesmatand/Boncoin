@@ -1,4 +1,9 @@
 /* ####   Css Header begin #####  */
+header{
+	background: #f56b2a;
+	max-width: 100%;
+	height: 60px;
+}
 
 div .container { 
 	max-width: 1070px;
@@ -9,7 +14,7 @@ div .wrapper{
 	margin: auto;
 	top: 0px;
 	float: left;
-	background: #f56b2a; 
+	
 
 
 
@@ -23,4 +28,4 @@ body{
 	background: #f56b2a;
 }
 
-/*  #### End Css body ####*/
+/*  #### End Css body #### */
