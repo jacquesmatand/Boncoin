@@ -1,0 +1,24 @@
+/* ####   Css Header begin #####  */
+
+div .container { 
+	max-width: 1070px;
+	margin: 0 auto;
+	 }
+div .wrapper{
+	max-width: 100%;
+	margin: auto;
+	top: 0px;
+	float: left;
+	background: #f56b2a; 
+
+
+
+}
+
+/*  #### End Css header #####*/
+
+/* ### Begin Css body ######*/
+
+body{
+	background: #f56b2a;
+}
