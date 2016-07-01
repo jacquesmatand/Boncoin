@@ -3,9 +3,10 @@ header{
 	background: #f56b2a;
 	max-width: 100%;
 	height: 60px;
+	margin-top: 0;
 }
 
-div .container { 
+.container { 
 	max-width: 1070px;
 	margin: 0 auto;
 	 }
@@ -14,17 +15,45 @@ div .wrapper{
 	margin: auto;
 	top: 0px;
 	float: left;
+}
+
+.navbar{
+
+	top: 0px; 
+	list-style-type: none;
+	display: inline;
+	font-family: arial;
+	font-size: 1em;
+	clear: both;
+	z-index: 5;
+	padding: 5px 0px;
+	clear: both;
+
+}
+nav li {
 	
+}
 
 
 
+button img {
+	width: 10px;
+	height: 10px;
+}
+
+h1 img {
+	width: 20%;
+	height: 15%;
+	color:#fff;
+	z-index:-1;
+	padding-right: 5px;
 }
 
 /*  #### End Css header #####*/
 
 /* ### Begin Css body ###### */
 
-body{
+/*body{
 	background: #f56b2a;
 }
 
