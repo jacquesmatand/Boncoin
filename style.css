@@ -120,13 +120,55 @@ span {
 }
 
 .gauche{
+	background-color: red;
 	list-style-type: none;
+	font-family: sans-serif;
+	font-size: 0.9em;
 }
-.malamu{
+.malamu {
 	color:#f56b2a;
+	font-family: sans-serif;
+	font-size: 1.1em;
+	margin-bottom: 30px;
+}
+
+.eleli{
+	background:#4c94ef;
+	color: #fff;
+	font-size: 1em;
+	font-family:arial;
+}
+
+.elela{
+	background:#888;
+	color: #fff;
+	font-size: 1em;
+	font-family:arial;
+}
+input .elela{ 
+	width: 358px;
+	height: 40px;
+	background: #fff;
+	border-radius: 5px;
+	padding-left: 60px;
+
+
+ }
+input {
+	width: 358px;
+	height: 40px;
+	background: #4c94ef;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	border-radius: 5px;
+	border-color: #4c94ef;
+	text-align: center;
 }
 
 .region {
+	/*background: blue; */
+	
+	
 
 	text-align: right;
 	list-style-type: none;
