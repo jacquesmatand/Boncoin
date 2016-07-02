@@ -138,6 +138,15 @@ span {
 	font-size: 1em;
 	font-family:arial;
 }
+.elelo{
+	background:#fff;
+	color: #4c94ef;
+	font-size: 1em;
+	font-family:arial;
+}
+.elelo:hover{
+	background:#d9e5f4;
+}
 
 .elela{
 	background:#888;
@@ -145,6 +154,7 @@ span {
 	font-size: 1em;
 	font-family:arial;
 }
+
 input .elela{ 
 	width: 358px;
 	height: 40px;
