@@ -83,9 +83,9 @@ span {
 	text-align: center;
 	
 }
-span:hover{
+/*span:hover{
 	color:#f56b2a ;
-}
+}*/
 
 
 .logo{
@@ -110,6 +110,21 @@ span:hover{
 
 
 /****   CSS for left div ####*/
+
+#gauche{
+
+	position: relative;
+	float: left;
+	margin-bottom: 25px;
+
+}
+
+.gauche{
+	list-style-type: none;
+}
+.malamu{
+	color:#f56b2a;
+}
 
 .region {
 
