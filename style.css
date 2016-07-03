@@ -11,11 +11,12 @@ header{
 	max-width: 1070px;
 	margin: 0 auto;
 	 }
-div .wrapper{
+
+section .wrapper{
 	max-width: 100%;
 	margin: auto;
 	top: 0px;
-	float: left;
+	
 }
 
 /*  #### The begining Css of navigation bar###### */
@@ -83,9 +84,9 @@ span {
 	text-align: center;
 	
 }
-/*span:hover{
+span:active{
 	color:#f56b2a ;
-}*/
+}
 
 
 .logo{
@@ -120,7 +121,7 @@ span {
 }
 
 .gauche{
-	background-color: red;
+	/*background-color: red;*/
 	list-style-type: none;
 	font-family: sans-serif;
 	font-size: 0.9em;
@@ -137,6 +138,9 @@ span {
 	color: #fff;
 	font-size: 1em;
 	font-family:arial;
+}
+.eleli:hover{
+	background:#d9e5f3;
 }
 .elelo{
 	background:#fff;
@@ -159,7 +163,7 @@ input .elela{
 	width: 358px;
 	height: 40px;
 	background: #fff;
-	border-radius: 5px;
+	border-radius: 3px;
 	padding-left: 60px;
 
 
@@ -170,9 +174,10 @@ input {
 	background: #4c94ef;
 	margin-top: 10px;
 	margin-bottom: 5px;
-	border-radius: 5px;
-	border-color: #4c94ef;
+	border-radius: 2px;
+	border-color:#4c94ef;
 	text-align: center;
+	
 }
 
 .imggauche{
@@ -180,19 +185,86 @@ input {
 	height: 230px;
 
 }
+/* ** ###### Css for map and decoration ######## *** */
+
+.map area:hover{
+	background-color:#f56b2a;
+
+}
+.map area:link{
+
+	background-color:#f56b2a;
+}
+.map area:active{
+
+	background-color:#f56b2a;
+}
+.mboka{
+	margin-top: 30px;
+	margin-left: 20px;
+	width: 350px;
+	/*background:#f56b2a; */ 
+	border-image-outset: 7px solid red; 
+}
+
+
+
+/* *** ######  End of Css map ######  */
+.droite{
+	width: 280px;
+	float: right;
+	position: relative;
+	/*background-color: blue;*/
+	margin-top: 30px;
+
+}
 
 .region {
-	/*background: blue; */
 	
-	
-
 	text-align: right;
 	list-style-type: none;
+	font: 1.3em;
+	font-family: sans-serif;
+	margin-bottom: 0.2em;
 
 }
 .region:hover{
 	
 	text-decoration: underline;
-	color:blue;
+	color:#f56b2a;
+
 }
 /*  #### End Css body #### */
+/*  ######  Comment the section behind footer #### */
+
+.bas{
+	margin-top: 120px;
+	font-family: sans-serif;
+	margin-bottom: 50px;
+
+}
+span.bas {
+	color: #369;
+	font-size:1em;
+}
+span.bas:hover{
+	text-decoration: underline;
+}
+
+/* ######  the end inside section  ####  */
+
+.footer{
+
+	background: #f2f2f2;
+	max-width: 100%;
+}
+
+.mutu{
+	display: inline-block;
+	color: #369;
+	font-size:0.8em;
+	font-family: sans-serif;
+	margin-right: 90px;
+	left: 0px;
+	background-color: #808
+}
