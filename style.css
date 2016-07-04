@@ -1,4 +1,50 @@
 /* ####   Css Header begin #####  */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* ******
+Code to put all element in the 0 position
+***** */
 @media (min-width: 900px){
 
 
@@ -14,6 +60,7 @@ header{
 .container { 
 	max-width: 1070px;
 	margin: 0 auto;
+	margin-bottom: 10px;
 	 }
 
 section .wrapper{
@@ -47,8 +94,8 @@ nav li:hover{
 nav li {
 	display: inline;
 	padding-top: 20px;
-	padding-left:10px;
-	margin-left:20px;
+	padding-left: 8px;
+	margin-left:15px;
 	
 }
 
@@ -63,6 +110,29 @@ button img {
 	margin-right:8px;
 	
 }
+.logo{
+
+	margin-top: 10px;
+}
+nav i {
+	color: #fff;
+
+}
+
+nav button:hover i {
+	color:#f56b2a ; /**** background color to the i in the button ***/
+}
+
+nav button:hover .connexion{
+	color:#f56b2a ; /**** background color span in button  ****/
+
+}
+
+.connexion{
+
+	margin-left: 5px;
+	font-weight: bold;
+}
 
 .button {
 
@@ -71,7 +141,7 @@ button img {
 	margin-top: 8px;
 	background-color: #f56b2a; 
 	height: 40px;
-	width: 150px;
+	width: 140px;
 
 }
 .button:hover{
@@ -102,13 +172,12 @@ span:active{
 	z-index:-1;
 	font-size: 1.8em;
 	font-weight: bold;
-	list-style-type: none;
+	list-style: none;
 	font-family: sans-serif, arial;
+	width: 15%;
 	
 }
-.logo:hover{
-	text-decoration: none;
-}
+
 
 /* #### Comment navbar CSS end #####*/
 
@@ -130,8 +199,11 @@ span:active{
 .gauche{
 	/*background-color: red;*/
 	list-style-type: none;
-	font-family: sans-serif;
-	font-size: 0.9em;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 0.8em;
+	margin: 20px;
+	font-weight: bold;
+	line-height: 1.4em;
 }
 .malamu {
 	color:#f56b2a;
@@ -245,9 +317,10 @@ input {
 /*  ######  Comment the section behind footer #### */
 
 .bas{
-	margin-top: 120px;
-	font-family: 'Open Sans', sans-serif;
+	margin-top: 140px;
+	font-family:  sans-serif;
 	margin-bottom: 50px;
+
 
 }
 span.bas {
@@ -268,12 +341,48 @@ span.bas:hover{
 
 .mutu{
 	display: inline-block;
-	color: #369;
+	
 	font-size:0.8em;
 	font-family: sans-serif;
-	margin-right: 90px;
+	margin-right: 120px;
 	left: 0px;
-	background-color: #808
+	
+
+}
+
+
+.nasuka{
+
+	line-height: 2em;
+	list-style: none;
+	color: #000;
+}
+.nasuka:hover{
+
+	text-decoration: underline;
+}
+
+.muana{
+	display: inline-block;
+	
+	font-size:0.8em;
+	font-family: sans-serif;
+	margin-right: 120px;
+	left: 0px;
+	
+
+}
+
+
+.moko{
+
+	line-height: 2em;
+	list-style: none;
+	color: #fff;
+}
+.moko:hover{
+
+	text-decoration: underline;
 }
 
 }
