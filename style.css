@@ -1,4 +1,8 @@
 /* ####   Css Header begin #####  */
+@media (min-width: 900px){
+
+
+
 header{
 	background: #f56b2a;
 	max-width: 100%;
@@ -48,7 +52,9 @@ nav li {
 	
 }
 
-
+/*****************
+Css property for button navigation bar
+***********/
 
 button img {
 	width: 15px;
@@ -87,6 +93,7 @@ span {
 span:active{
 	color:#f56b2a ;
 }
+
 
 
 .logo{
@@ -128,7 +135,7 @@ span:active{
 }
 .malamu {
 	color:#f56b2a;
-	font-family: sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 1.1em;
 	margin-bottom: 30px;
 }
@@ -146,7 +153,7 @@ span:active{
 	background:#fff;
 	color: #4c94ef;
 	font-size: 1em;
-	font-family:arial;
+	font-family: 'Open Sans', arial;
 }
 .elelo:hover{
 	background:#d9e5f4;
@@ -239,7 +246,7 @@ input {
 
 .bas{
 	margin-top: 120px;
-	font-family: sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	margin-bottom: 50px;
 
 }
@@ -267,4 +274,573 @@ span.bas:hover{
 	margin-right: 90px;
 	left: 0px;
 	background-color: #808
+}
+
+}
+
+/**********
+Mobile phone media
+********/
+@media (max-width: 480px) {
+
+
+header{
+	background: #f56b2a;
+	max-width: 100%;
+	height: 60px;
+	
+
+}
+
+.container { 
+	max-width: 1070px;
+	margin: 0 auto;
+	 }
+
+section .wrapper{
+	max-width: 100%;
+	margin: auto;
+	top: 0px;
+	
+}
+
+/*  #### The begining Css of navigation bar###### */
+.navbar{
+
+	top: 0px; 
+	list-style-type: none;
+	display: inline;
+	font-family: sans-serif, arial;
+	font-weight: bold;
+	font-size: 0.9em;
+	text-align: center
+	z-index: 5;
+	padding: 5px 0px;
+	color: #fff;
+
+}
+
+/* nav li:hover{
+
+	text-decoration: underline;
+
+}
+nav li {
+	display: inline;
+	padding-top: 20px;
+	padding-left:10px;
+	margin-left:20px;
+	
+}
+
+/*****************
+Css property for button navigation bar
+***********/
+
+/* button img {
+	width: 15px;
+	height: 15px;
+	margin-top: 10px;
+	margin-right:8px;
+	
+}
+
+.button {
+
+	border-radius: 5px;
+	border: 1px solid #fff;
+	margin-top: 8px;
+	background-color: #f56b2a; 
+	height: 40px;
+	width: 150px;
+
+}
+.button:hover{
+		background-color: #fff;
+		
+}
+
+.imgbutton{
+	color: #fff;
+}
+
+span {
+	font-size: 1.3em;
+	font-family: arial;
+	color: #fff;
+	text-align: center;
+	
+}
+span:active{
+	color:#f56b2a ;
+}
+
+
+
+.logo{
+	
+	color:#fff;
+	z-index:-1;
+	font-size: 1.8em;
+	font-weight: bold;
+	list-style-type: none;
+	font-family: sans-serif, arial;
+	
+}
+.logo:hover{
+	text-decoration: none;
+}
+
+/* #### Comment navbar CSS end #####*/
+
+/*  #### End Css header #####*/
+
+/* ### Begin Css body ###### */
+
+
+/****   CSS for left div ####*/
+
+#gauche{
+
+	position: relative;
+	float: left;
+	margin-bottom: 25px;
+
+}
+
+.gauche{
+	/*background-color: red;*/
+	list-style-type: none;
+	font-family: sans-serif;
+	font-size: 0.9em;
+}
+.malamu {
+	color:#f56b2a;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.1em;
+	margin-bottom: 30px;
+}
+
+.eleli{
+	background:#4c94ef;
+	color: #fff;
+	font-size: 1em;
+	font-family:arial;
+}
+.eleli:hover{
+	background:#d9e5f3;
+}
+.elelo{
+	background:#fff;
+	color: #4c94ef;
+	font-size: 1em;
+	font-family: 'Open Sans', arial;
+}
+.elelo:hover{
+	background:#d9e5f4;
+}
+
+.elela{
+	background:#888;
+	color: #fff;
+	font-size: 1em;
+	font-family:arial;
+}
+
+input .elela{ 
+	width: 358px;
+	height: 40px;
+	background: #fff;
+	border-radius: 3px;
+	padding-left: 60px;
+
+
+ }
+input {
+	width: 358px;
+	height: 40px;
+	background: #4c94ef;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	border-radius: 2px;
+	border-color:#4c94ef;
+	text-align: center;
+	
+}
+
+.imggauche{
+	width: 360px;
+	height: 230px;
+
+}
+/* ** ###### Css for map and decoration ######## *** */
+
+.map area:hover{
+	background-color:#f56b2a;
+
+}
+.map area:link{
+
+	background-color:#f56b2a;
+}
+.map area:active{
+
+	background-color:#f56b2a;
+}
+.mboka{
+	margin-top: 30px;
+	margin-left: 20px;
+	width: 350px;
+	/*background:#f56b2a; */ 
+	border-image-outset: 7px solid red; 
+}
+
+
+
+/* *** ######  End of Css map ######  */
+.droite{
+	width: 280px;
+	float: right;
+	position: relative;
+	/*background-color: blue;*/
+	margin-top: 30px;
+
+}
+
+.region {
+	
+	text-align: right;
+	list-style-type: none;
+	font: 1.3em;
+	font-family: sans-serif;
+	margin-bottom: 0.2em;
+
+}
+.region:hover{
+	
+	text-decoration: underline;
+	color:#f56b2a;
+
+}
+/*  #### End Css body #### */
+/*  ######  Comment the section behind footer #### */
+
+/* 
+.bas{
+	margin-top: 120px;
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 50px;
+
+}
+span.bas {
+	color: #369;
+	font-size:1em;
+}
+span.bas:hover{
+	text-decoration: underline;
+}
+
+/* ######  the end inside section  ####  */
+
+/*.footer{
+
+	background: #f2f2f2;
+	max-width: 100%;
+}
+
+.mutu{
+	display: inline-block;
+	color: #369;
+	font-size:0.8em;
+	font-family: sans-serif;
+	margin-right: 90px;
+	left: 0px;
+	background-color: #808
+} 
+
+*/ 
+}
+
+
+/**********
+For tablett media
+*******/
+@media (max-width: 780px){
+
+
+	/******
+	All code section for this devices
+	*******/
+
+	header{
+	background: #f56b2a;
+	max-width: 100%;
+	height: 60px;
+	
+
+}
+
+.container { 
+	max-width: 1070px;
+	margin: 0 auto;
+	 }
+
+section .wrapper{
+	max-width: 100%;
+	margin: auto;
+	top: 0px;
+	
+}
+
+/*  #### The begining Css of navigation bar###### */
+.navbar{
+
+	top: 0px; 
+	list-style-type: none;
+	display: inline;
+	font-family: sans-serif, arial;
+	font-weight: bold;
+	font-size: 0.9em;
+	text-align: center
+	z-index: 5;
+	padding: 5px 0px;
+	color: #fff;
+
+}
+
+nav li:hover{
+
+	text-decoration: underline;
+
+}
+nav li {
+	display: inline;
+	padding-top: 20px;
+	padding-left:10px;
+	margin-left:20px;
+	
+}
+
+/*****************
+Css property for button navigation bar
+***********/
+
+/*button img {
+	width: 15px;
+	height: 15px;
+	margin-top: 10px;
+	margin-right:8px;
+	
+}
+
+.button {
+
+	border-radius: 5px;
+	border: 1px solid #fff;
+	margin-top: 8px;
+	background-color: #f56b2a; 
+	height: 40px;
+	width: 150px;
+
+}
+.button:hover{
+		background-color: #fff;
+		
+}
+
+.imgbutton{
+	color: #fff;
+}
+
+span {
+	font-size: 1.3em;
+	font-family: arial;
+	color: #fff;
+	text-align: center;
+	
+}
+span:active{
+	color:#f56b2a ;
+} */
+
+
+.logo{
+	
+	color:#fff;
+	z-index:-1;
+	font-size: 1.8em;
+	font-weight: bold;
+	list-style-type: none;
+	font-family: sans-serif, arial;
+	
+}
+.logo:hover{
+	text-decoration: none;
+}
+
+/* #### Comment navbar CSS end #####*/
+
+/*  #### End Css header #####*/
+
+/* ### Begin Css body ###### */
+
+
+/****   CSS for left div ####*/
+
+#gauche{
+
+	position: relative;
+	float: left;
+	margin-bottom: 25px;
+
+}
+
+.gauche{
+	/*background-color: red;*/
+	list-style-type: none;
+	font-family: sans-serif;
+	font-size: 0.9em;
+}
+.malamu {
+	color:#f56b2a;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.1em;
+	margin-bottom: 30px;
+}
+
+.eleli{
+	background:#4c94ef;
+	color: #fff;
+	font-size: 1em;
+	font-family:arial;
+}
+.eleli:hover{
+	background:#d9e5f3;
+}
+.elelo{
+	background:#fff;
+	color: #4c94ef;
+	font-size: 1em;
+	font-family: 'Open Sans', arial;
+}
+.elelo:hover{
+	background:#d9e5f4;
+}
+
+.elela{
+	background:#888;
+	color: #fff;
+	font-size: 1em;
+	font-family:arial;
+}
+
+input .elela{ 
+	width: 358px;
+	height: 40px;
+	background: #fff;
+	border-radius: 3px;
+	padding-left: 60px;
+
+
+ }
+input {
+	width: 358px;
+	height: 40px;
+	background: #4c94ef;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	border-radius: 2px;
+	border-color:#4c94ef;
+	text-align: center;
+	
+}
+
+.imggauche{
+	width: 360px;
+	height: 230px;
+
+}
+/* ** ###### Css for map and decoration ######## *** */
+
+.map area:hover{
+	background-color:#f56b2a;
+
+}
+.map area:link{
+
+	background-color:#f56b2a;
+}
+.map area:active{
+
+	background-color:#f56b2a;
+}
+.mboka{
+	margin-top: 30px;
+	margin-left: 20px;
+	width: 350px;
+	/*background:#f56b2a; */ 
+	border-image-outset: 7px solid red; 
+}
+
+
+
+/* *** ######  End of Css map ######  */
+.droite{
+	width: 280px;
+	float: right;
+	position: relative;
+	/*background-color: blue;*/
+	margin-top: 30px;
+
+}
+
+.region {
+	
+	text-align: right;
+	list-style-type: none;
+	font: 1.3em;
+	font-family: sans-serif;
+	margin-bottom: 0.2em;
+
+}
+.region:hover{
+	
+	text-decoration: underline;
+	color:#f56b2a;
+
+}
+/*  #### End Css body #### */
+/*  ######  Comment the section behind footer #### */
+
+.bas{
+	margin-top: 120px;
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 50px;
+
+}
+span.bas {
+	color: #369;
+	font-size:1em;
+}
+span.bas:hover{
+	text-decoration: underline;
+}
+
+/* ######  the end inside section  ####  */
+
+.footer{
+
+	background: #f2f2f2;
+	max-width: 100%;
+}
+
+.mutu{
+	display: inline-block;
+	color: #369;
+	font-size:0.8em;
+	font-family: sans-serif;
+	margin-right: 90px;
+	left: 0px;
+	background-color: #808
+}
 }
