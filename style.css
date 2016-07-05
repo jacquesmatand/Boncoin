@@ -1,4 +1,7 @@
 /* ####   Css Header begin #####  */
+/****** 
+Initializid the web page before with this code
+********/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -429,7 +432,7 @@ section .wrapper{
 
 }
 
-/* nav li:hover{
+ nav li:hover{
 
 	text-decoration: underline;
 
@@ -446,7 +449,7 @@ nav li {
 Css property for button navigation bar
 ***********/
 
-/* button img {
+ button img {
 	width: 15px;
 	height: 15px;
 	margin-top: 10px;
@@ -634,7 +637,7 @@ input {
 /*  #### End Css body #### */
 /*  ######  Comment the section behind footer #### */
 
-/* 
+ 
 .bas{
 	margin-top: 120px;
 	font-family: 'Open Sans', sans-serif;
@@ -651,7 +654,7 @@ span.bas:hover{
 
 /* ######  the end inside section  ####  */
 
-/*.footer{
+.footer{
 
 	background: #f2f2f2;
 	max-width: 100%;
@@ -667,7 +670,7 @@ span.bas:hover{
 	background-color: #808
 } 
 
-*/ 
+
 }
 
 
@@ -734,7 +737,7 @@ nav li {
 Css property for button navigation bar
 ***********/
 
-/*button img {
+button img {
 	width: 15px;
 	height: 15px;
 	margin-top: 10px;
